@@ -1,0 +1,28 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Shingeki no Kiojin - tomo 4",
+    "editorial": "Norma España",
+    "autor": "Hajime Isayama",
+    "categoria":"Manga / Japones"
+}
+
+###
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+
+###
+PUT http://localhost:9000/api/6 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "The Legend of Zelda: Art & Artifacts",
+    "editorial": "Dark Horse Books",
+    "autor": "Nintendo",
+    "categoria":"Novela grafica"
+}
